@@ -9,8 +9,8 @@ if __name__ == "__main__":
         else:
             print("{} argument:".format(number_of_args))
         values = 1
-        for arg in argv[1:]
-        print("{}: {}".format(values, arg))
+        for arg in range(1, number_of_args):
+        print("{}: {}".format(arg, sys.argv[a}))
         values += 1
     else:
         print("{} argument.".format(number_of_args))
