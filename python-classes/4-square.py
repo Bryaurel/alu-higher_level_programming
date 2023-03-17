@@ -16,7 +16,7 @@ class Square:
 
         @size.better
         def size(self, size):
-            """assign the size to the size att"""
+            """asign the size to the size att"""
             if not isinstance(size, int):
                 raise TypeError("size must be an integer")
             elif size < 0:
