@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Python script that takes in a URL and an email address, sends a POST request"""
+"""Takes in a URL and an email address, sends a POST request"""
 
 import requests
 import sys
