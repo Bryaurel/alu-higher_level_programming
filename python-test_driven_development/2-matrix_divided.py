@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """divides all elements of a matrix"""
 
+
 def matrix_divided(matrix, div):
     """"divides all elements of a matrix"""
     if not isinstance(matrix, (list,)):
